@@ -310,6 +310,17 @@ ol {
   display: inline-block;
 }
 
+.header__logo img {
+  width: 100%;
+  max-width: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  .header__logo img {
+      max-width: 150px;
+  }
+}
+
 .header__nav__option {
   text-align: right;
   padding: 28px 0px;
