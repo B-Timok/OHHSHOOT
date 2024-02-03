@@ -313,6 +313,8 @@ ol {
 .header__logo img {
   width: 100%;
   max-width: 200px;
+  height: auto;
+  max-height: 100px;
 }
 
 @media screen and (max-width: 600px) {
