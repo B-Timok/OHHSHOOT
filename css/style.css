@@ -439,6 +439,7 @@ ol {
 /*---------------------
   Hero
 -----------------------*/
+
 .hero__slider.owl-carousel .owl-item.active .hero__text span {
   top: 0;
   opacity: 1;
@@ -856,7 +857,7 @@ ol {
   margin-bottom: 55px;
 }
 .callto__text a {
-  color: #ffffff;
+  color: black;
   background: white;
   font-size: 15px;
   font-weight: 700;
@@ -1962,6 +1963,13 @@ ol {
 }
 /* Wide Mobile = 480px */
 @media only screen and (max-width: 767px) {
+
+  .hero__video1 iframe,
+  .hero__video2 iframe,
+  .hero__video3 iframe {
+      height: 200px;
+  }
+  
   .services__title {
     margin-bottom: 50px;
   }
